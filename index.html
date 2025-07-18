@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Xtreme AI</title>
+    
+    <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    
+
+</head>
+<body >
+
+    <!-- INICIO DE LA BARRA DE NAVEGACIÓN -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding: 0px;">
+        <div class="container-fluid" style="background-color: #2c3e50;">
+            <!-- Logo y Brand juntos -->
+                <a href="index.html"><img src="./img/logo.png" alt="logo" style="width: 90px;"></a>
+            
+            <!-- Botón hamburguesa -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- Menú de navegación -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto" style="margin: 0px 80px 0px 0px;">
+                    <!-- Home -->
+                    
+                    <!-- Productos -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+                            <i class="fas fa-box me-1" style="color: white;"></i>Productos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">
+                                <i class="fas fa-industry me-2"></i>MDF Y MDP
+                            </a></li>
+                            <li><a class="dropdown-item" href="#">
+                                <i class="fas fa-stamp me-2"></i>SELLOS MECÁNICOS Y AUTOMÁTICOS
+                            </a></li>
+                            <li><a class="dropdown-item" href="#">
+                                <i class="fas fa-toilet-paper me-2"></i>TELAS DE VARIAS CALIDADES
+                            </a></li>
+                            
+                            <li><a class="dropdown-item" href="#">
+                                <i class="fas fa-print me-2"></i>PAPELES AL POR MAYOR
+                            </a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Servicios -->
+                    <li class="nav-item dropdown" style="margin-left: 40px;">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+                            <i class="fas fa-wrench me-1" style="color: white;"></i>Servicios
+                        </a>
+                       <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">
+                                <i class="fas fa-cut me-2"></i>Corte Laser
+                            </a></li>
+                            <li><a class="dropdown-item" href="#">
+                                <i class="fas fa-desktop me-2"></i>Sublimación
+                            </a></li>
+                            <li><a class="dropdown-item" href="#">
+                                <i class="fas fa-stamp me-2"></i>Sellos Personalizados
+                            </a></li>
+                            <li><a class="dropdown-item" href="#">
+                                <i class="fas fa-print me-2"></i>Impresión
+                            </a></li>
+                            
+                        </ul>
+                    </li>
+                    
+                    <!-- Quiénes Somos -->
+                    <li class="nav-item dropdown" style="margin-left: 40px;">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+                            <i class="fas fa-users me-1" style="color: white;"></i>Quiénes Somos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Nosotros.html">
+                                <i class="fas fa-users me-2"></i>Nosotros
+                            </a></li>
+                            <li><a class="dropdown-item" href="Contacto.html">
+                                <i class="fas fa-user me-2"></i>Contacto
+                            </a></li>
+                            <li><a class="dropdown-item" href="PoliticadePrivacidad.html">
+                                <i class="fas fa-handshake me-2"></i>Política de Privacidad
+                            </a></li>
+                            <li><a class="dropdown-item" href="LibrodeReclamaciones.html">
+                                <i class="fas fa-book me-2"></i>Libro de Reclamaciones
+                            </a></li>
+                        
+                        </ul>
+                    </li>
+                    
+                    <!-- Filiales -->
+                    <li class="nav-item dropdown" style="margin-left: 40px; margin-right: 30px;" >
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true" style="color: white;">
+                            <i class="fas fa-sitemap me-1" style="color: white;"></i>Convenios
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://delcomp.pe/">
+                                <i class="fas fa-microchip " style="margin-right: 5px;"></i>Delcomp Sac
+                            </a></li>
+                            
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">
+                                <i class="fas fa-plus "></i>Próximas Sucursales
+                            </a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+  
+<!-- FIN DE LA BARRA DE NAVEGACIÓN -->
+
+
+<!-- INICIO DEL CARRUSEL DE IMAGENES -->
+<div id="carouselExampleCaptions" class="carousel slide" style="height: 600px;" >
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" style="height: 600px;" >
+      <img src="/img/cortelaser.jpeg" class="d-block w-100" alt="..."  >
+      <div class="carousel-caption d-none d-md-block">
+        <h2 style="color: #2c3e50; font-family: Arial Black; font-size: 50px;">SERVICIO DE CORTE LÁSER</h2>
+        <p style="font-size: 20px; color: #2c3e50; font-family: arial black;">Realizamos el servicio de Corte Láser de un espesor de hasta 18 mm</p>
+      </div>
+    </div>
+    <div class="carousel-item" style="height: 600px;">
+      <img src="img/sellos.jpg" class="d-block w-100" alt="..." >
+      <div class="carousel-caption d-none d-md-block">
+        <h5></h5>
+        <p></p>
+      </div>
+    </div>
+    <div class="carousel-item" style="height: 600px;">
+      <img src="img/banderola.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2 style="color: #2c3e50; font-family: Arial Black; font-size: 50px;">Confección de Banderolas</h5>
+        <p style="font-size: 20px; color: #2c3e50; font-family: arial black;">Realizamos el servicio de Confección Completa de la Banderola como también servicio de Planchado.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- FIN DEL CARRUSEL DE IMAGENES -->
+
+<!-- INICIO PRODUCTOS -->
+ <section style="padding: 50px 20px; background-color:#f8f9fa;">
+  <div class="container">
+    <h2 class="text-center mb-4" style="color:#127bf3;">Nuestros Servicios</h2>
+    <div class="row g-4">
+      <!-- Fila 1 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <img src="https://dattaimagen.com/wp-content/uploads/2024/02/CORTE-LASER-GUADALAJARAA.jpg" class="card-img-top" alt="Producto 1" style="height:200px; object-fit:cover;">
+          <div class="card-body">
+            <h5 class="card-title">Corte Láser</h5>
+            <p class="card-text">Realizamos el servicio de Corte Láser de un espesor de hasta 18 mm</p>
+            <a href="Productos.html" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <img src="https://www.roccograficas.com/litografia/img/Sellos.png" class="card-img-top" alt="Producto 2" style="height:200px; object-fit:cover;">
+          <div class="card-body">
+            <h5 class="card-title">Sellos Personalizados</h5>
+            <p class="card-text">Realizamos todo tipo de sellos personalizados mecánicos y automáticos de cualquier tamaño.</p>
+            <a href="Productos.html" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <img src="https://www.gigantografiaswilson.com/wp-content/uploads/2023/10/BANDEROLAS-DEPORTIVAS-PARA-COLEGIO.png" class="card-img-top" alt="Producto 3" style="height:200px; object-fit:cover;">
+          <div class="card-body">
+            <h5 class="card-title">Banderolas</h5>
+            <p class="card-text">Confeccionamos todo tipo de banderolas en varios tipos y calidades de tela.</p>
+            <a href="Productos.html" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Fila 2 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <img src="https://cdn.goconqr.com/uploads/node/image/54168576/desktop_128e4b24-34cb-441f-9033-e53ebb186e2d.png" class="card-img-top" alt="Producto 4" style="height:200px; object-fit:cover;">
+          <div class="card-body">
+            <h5 class="card-title">Impresión</h5>
+            <p class="card-text">Realizamos también la impresión en todo tipo de papeles hasta un espesor de 285gr.</p>
+            <a href="Productos.html" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <img src="https://www.trofeosromalde.com/images/romalde-portada-trofeos-y-medallas.jpg" class="card-img-top" alt="Producto 5" style="height:200px; object-fit:cover;">
+          <div class="card-body">
+            <h5 class="card-title">Trofeos y Medallas</h5>
+            <p class="card-text">Diseñamos y cortamos trofeos en acrílico y MDF como tambien vendemos trofeos y medallas.</p>
+            <a href="Productos.html" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <img src="https://www.witmetal.com.pe/wp-content/uploads/2025/03/placa-de-bronce-con-base-de-madera-placa-recordatoria.png" class="card-img-top" alt="Producto 6" style="height:200px; object-fit:cover;">
+          <div class="card-body">
+            <h5 class="card-title">Recordatorios</h5>
+            <p class="card-text">Realizamos placas recordatorio en Acrílico, Madera, Bronce y Mármol. Como también para graduaciones.</p>
+            <a href="Productos.html" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- FIN PRODUCTOS -->
+
+<!-- INICIO DE PROCEDIMIENTO -->
+<!-- Sección Procedimiento -->
+    <!-- Sección Procedimiento -->
+<section id="seccion-procedimiento" class="container text-center my-5 procedimiento-seccion">
+    <h2 class="fw-bold text-primary display-5 procedimiento-titulo">Procedimiento</h2>
+
+    <div class="row mt-5 g-4 procedimiento-pasos">
+      <!-- Paso 1 -->
+      <div class="col-md-3 procedimiento-paso">
+        <div class="procedimiento-icono mx-auto">
+          <i class="fas fa-desktop"></i>
+        </div>
+        <h5 class="mt-3 fw-bold">Envía tu diseño</h5>
+        <p>Envía tu diseño en CDR por whatsapp o por correo, también creamos un diseño para ti.</p>
+        <p class="text-primary small fst-italic">
+          (Si es un diseño sencillo podemos ayudarte sin recargo)
+        </p>
+      </div>
+
+      <!-- Paso 2 -->
+      <div class="col-md-3 procedimiento-paso">
+        <div class="procedimiento-icono mx-auto">
+          <i class="fas fa-calculator"></i>
+        </div>
+        <h5 class="mt-3 fw-bold">Cálculos de material</h5>
+        <p>Haremos los cálculos de material para tu proyecto.</p>
+        <p class="text-primary small fst-italic">
+          (Podemos cotizar a TODO COSTO si así lo prefieres)
+        </p>
+      </div>
+
+      <!-- Paso 3 -->
+      <div class="col-md-3 procedimiento-paso">
+        <div class="procedimiento-icono mx-auto">
+          <i class="fas fa-file-invoice-dollar"></i>
+        </div>
+        <h5 class="mt-3 fw-bold">Cotización</h5>
+        <p>Te enviaremos una cotización formal por whatsapp o gmail.</p>
+        <button class="btn btn-outline-primary btn-sm mt-2">Cotización gratuita</button>
+      </div>
+
+      <!-- Paso 4 -->
+      <div class="col-md-3 procedimiento-paso">
+        <div class="procedimiento-icono mx-auto">
+          <i class="fas fa-thumbs-up"></i>
+        </div>
+        <h5 class="mt-3 fw-bold">Aprobación</h5>
+        <p>Con tu visto bueno a la cotización y al plano definitivo de corte iniciamos.</p>
+        <button class="btn btn-outline-primary btn-sm mt-2">Proceso confirmado</button>
+      </div>
+    </div>
+  </section>
+<!-- FIN DE PROCEDIMIENTO -->
+
+<!-- INICIO FOOTER -->
+    <footer class="footer" style="padding: 40px 0px 0px 0px;">
+        <div class="footer-content">
+            <div class="container">
+                <div class="row">
+                    <!-- Datos de Contacto -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="fade-in-left delay-1">
+                            <a href="index.html"><img class="logo-footer" src="./img/logo.png" alt="logo" style="width: 120px;"></a>
+                            <h5>Datos de Contacto</h5>
+                            <div class="contact-info">
+                                <p><i class="fas fa-envelope"></i> xtremeai@gmail.com</p>
+                                <p><i class="fab fa-whatsapp"></i> 934 717 131</p>
+                                <p><i class="fas fa-map-marker-alt"></i> Av. San Martín N° - 427 | Huanta - Ayacucho - Perú</p>
+                            </div> 
+                            <div class="social-links">
+                                <a href="https://www.facebook.com/profile.php?id=61556312917130"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 mb-4">
+                        <div class="fade-in-up delay-2">
+                            <h5>Sobre Xtreme Ai</h5>
+                            <ul class="footer-links">
+                                <li><a href="Nosotros.html">Nosotros</a></li>
+                                <li><a href="Contacto.html">Contacto</a></li>
+                                <li><a href="PoliticadePrivacidad.html">Políticas de Privacidad</a></li>
+                                <li><a href="LibrodeReclamaciones.html">Libro de Reclamaciones</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Páginas -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="fade-in-up delay-3">
+                            <h5>Páginas</h5>
+                            <ul class="footer-links">
+                                <li><a href="Productos.html">NUESTROS PRODUCTOS</a></li>
+                                <li><a href="Productos.html">SERVICIO DE CORTE LASER</a></li>
+                                <li><a href="Productos.html">SERVICIOS DE SUBLIMACIÓN</a></li>
+                                <li><a href="Productos.html">SELLOS PERSONALIZADOS</a></li>
+                                <li><a href="Productos.html">IMPRESIÓN EN TODO TIPO DE PAPELES</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Suscripción -->
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="fade-in-right delay-4">
+                            <h5>Suscríbete a Xtreme AI</h5>
+                            <p>Recibe novedades y ofertas exclusivas a tu correo electrónico.</p>
+                            <form class="newsletter-form">
+                                <input type="text" class="form-control" placeholder="Ingresa tu Nombre">
+                                <input type="email" class="form-control" placeholder="Ingresa tu @Correo">
+                                <div class="form-check mb-3">
+                                    <input class="form-check-input" type="checkbox" id="newsletter-check">
+                                    <label class="form-check-label" for="newsletter-check">
+                                        Sí, me gustaría recibir sus boletines.
+                                    </label>
+                                </div>
+                                <button type="submit" class="btn btn-info col-md-8">Registrarme</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer Bottom -->
+             <div class="footer-bottom fade-in delay-5" style="margin: 0px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-start">
+                        <p class="mb-0">Desarrollado por: <a href="https://www.instagram.com/diegoyalico/">Diego A. Yalico Cardenas</a></p>
+                    </div>
+                    <div class="col-md-6 text-end">
+                        <p class="mb-0">&copy; 2025 Xtreme AI. Todos los derechos reservados.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://wa.me/934717131" class="whatsapp-float fade-in delay-6" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">¿Necesitas ayuda? Chatea con nosotros</span>
+    </a>
+
+
+
+
+   <!-- INICIO DE TODOS LOS SCRIPTS -->
+    <!-- INICIO DE FUNCIONES PARA EL FOOTER-->
+    <script>
+        // Función para detectar cuando un elemento es visible
+        function isElementInViewport(el) {
+            const rect = el.getBoundingClientRect();
+            return (
+                rect.top >= 0 &&
+                rect.left >= 0 &&
+                rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+            );
+        }
+
+        // Función para manejar la animación al hacer scroll
+        function handleScrollAnimation() {
+            const elements = document.querySelectorAll('.fade-in-up, .fade-in-left, .fade-in-right, .fade-in');
+            
+            elements.forEach(element => {
+                if (isElementInViewport(element) || window.scrollY + window.innerHeight >= element.offsetTop + 100) {
+                    element.classList.add('visible');
+                }
+            });
+        }
+
+        // Event listeners
+        window.addEventListener('scroll', handleScrollAnimation);
+        window.addEventListener('load', handleScrollAnimation);
+
+        // Manejar el formulario de newsletter
+        document.querySelector('.newsletter-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const name = this.querySelector('input[type="text"]').value;
+            const email = this.querySelector('input[type="email"]').value;
+            const checkbox = this.querySelector('input[type="checkbox"]').checked;
+            
+            if (name && email && checkbox) {
+                alert('¡Gracias por suscribirte! Te enviaremos las últimas novedades.');
+                this.reset();
+            } else {
+                alert('Por favor completa todos los campos y acepta recibir los boletines.');
+            }
+        });
+
+        // Smooth scroll para links internos
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+
+    <!-- FIN FUNCIONES PARA EL FOOTER-->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <!-- FIN DE TODOS LOS SCRIPTS -->
+</body>
+</html>
